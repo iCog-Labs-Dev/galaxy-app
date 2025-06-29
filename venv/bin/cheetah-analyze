@@ -1,0 +1,6 @@
+#!/home/hope/New_Galaxy/galaxy_app_test/venv/bin/python3
+
+from Cheetah import DirectiveAnalyzer
+
+if __name__ == '__main__':
+    DirectiveAnalyzer.main()
