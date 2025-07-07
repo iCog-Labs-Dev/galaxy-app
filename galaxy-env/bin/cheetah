@@ -1,0 +1,3 @@
+#!/home/hope/New_Galaxy/galaxy-env/bin/python3
+from Cheetah.CheetahWrapper import _cheetah
+_cheetah()

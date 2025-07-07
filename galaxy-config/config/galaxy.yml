@@ -1,0 +1,6 @@
+galaxy:
+  database_connection: sqlite:///./database/universe.sqlite?isolation_level=IMMEDIATE
+  file_path: ./database/files
+  job_working_directory: ./database/job_working_directory
+  admin_users: admin@example.com
+  brand: "My Galaxy"
