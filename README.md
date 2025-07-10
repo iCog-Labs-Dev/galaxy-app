@@ -85,7 +85,7 @@ python -m galaxy_app
 ## Documentation
 
 Currently, the package has limited documentation. You can start by exploring:
-
+* [Galaxy-app Vs Bioblend](https://docs.google.com/presentation/d/1sbK7ZX2VLkaDrYFTBZV4snIiPeI8uk1BiG_vj94q35s/edit?usp=sharing)
 * [Galaxy API docs](https://docs.galaxyproject.org/en/latest/api_doc.html)
 * [Source code](https://github.com/mbevand/galaxy-app) (GitHub page if available)
 * [PyPI page](https://pypi.org/project/galaxy-app/)
