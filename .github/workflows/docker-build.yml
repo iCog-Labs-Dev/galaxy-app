@@ -1,4 +1,3 @@
-
 name: Galaxy App Docker CI
 
 on:
@@ -30,9 +29,15 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Set lowercase image tag
+        id: prep
+        run: |
+          IMAGE_TAG="ghcr.io/${GITHUB_REPOSITORY,,}:latest"
+          echo "image_tag=$IMAGE_TAG" >> "$GITHUB_OUTPUT"
+
       - name: Build and Push Docker Image to GHCR
         uses: docker/build-push-action@v5
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository }}:latest
+          tags: ${{ steps.prep.outputs.image_tag }}
