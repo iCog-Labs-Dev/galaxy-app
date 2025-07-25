@@ -1,0 +1,31 @@
+# site_name: Galaxy App API Docs
+
+# nav:
+#   - Home: index.md
+#   - API Reference: api.md
+
+# plugins:
+#   - mkdocstrings
+
+# theme:
+#   name: material
+site_name: Galaxy App API Docs
+
+nav:
+
+ - Home: index.md
+
+ - API Reference: api.md
+
+ - AST Explorer:
+
+     - main.py: auto-docs/main.md
+
+     - schemas.py: auto-docs/schemas.md
+
+plugins:
+
+ - mkdocstrings
+
+theme:
+   name: material 
