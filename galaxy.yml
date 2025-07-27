@@ -1,8 +1,0 @@
-galaxy:
-  database_connection: sqlite:///./database/universe.sqlite
-  file_path: ./files
-  tool_data_path: ./tool-data
-  new_file_path: ./tmp
-  object_store_store_by: uuid
-  allow_user_creation: true
-  admin_users: test@example.com
