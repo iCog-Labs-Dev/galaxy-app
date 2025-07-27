@@ -1,4 +1,4 @@
-# Documentation for `schemas`
+# Documentation for `models_schemas`
 
 ## Classes
 

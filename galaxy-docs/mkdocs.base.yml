@@ -1,0 +1,13 @@
+site_name: Galaxy App API Docs
+
+nav:
+  - Home: index.md
+  - API Reference: api.md
+  - AST Explorer:
+      - "__PLACEHOLDER__": auto-docs/placeholder.md  # This will be replaced
+
+plugins:
+  - mkdocstrings
+
+theme:
+  name: material

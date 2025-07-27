@@ -4,4 +4,4 @@ pydantic
 galaxy-app  # it's installable or local
 bioblend 
 requests
-
+watchdog
