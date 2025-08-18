@@ -100,7 +100,9 @@ def run_tool_with_dataset(req: RunToolRequest):
         "output_dataset_id": output_hda.id,
         "output": output_text
     }
-
+    
+def test_function():
+    print("only for ducument test")
 # === Customize Swagger Docs ===
 def custom_openapi():
     if app.openapi_schema:
@@ -113,5 +115,4 @@ def custom_openapi():
     )
     app.openapi_schema = openapi_schema
     return app.openapi_schema
-
-app.openapi = custom_openapi
+app.openapi = custom_openapi 
