@@ -21,7 +21,6 @@ def main():
     # Verify tree-sitter installation
     try:
         from tree_sitter import Language
-        # print(f"Using tree-sitter version: {tree_sitter.__version__}")
     except ImportError:
         print("ERROR: tree_sitter module not installed")
         print("Please run: pip install tree_sitter==0.22.1 #you can change version")

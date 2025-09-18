@@ -186,10 +186,10 @@ DEBUG:root:Skipping unsupported file: galaxy_app/config.ini
 cd ~/Project_package/galaxy-app
 
 # Build parsers
-python -m galaxy_ast_docs.build_parsers
+python -m Docs_generator.build_parsers
 
 # Generate documentation
-python -m galaxy_ast_docs.generate_ast_docs \
+python -m Docs_generator.generate_ast_docs \
     --root galaxy_app \
     --output docs/ast_summary.json
     
